@@ -1,0 +1,23 @@
+This is a very special webcomic.
+
+Why?
+Check this out.
+
+1. It sucks :D (but pleeease keep reading)
+2. It's running from git (so you can clone it, get notifies, download everything etc)
+3. It's in pure javascript! (yeap things are getting more interesting...)
+4. You can distribute the comic by sending the javascript and tell to put it to the url bar!
+   The latest comic will be downloaded dynamically (that is in javascript) and execute!
+5. A small engine (that has a crude version of templates) is written in Python and does
+   the pre-rendering :D
+
+
+Huge TODOS:
+-----------
+First of all, I should use timers in javascript 'cause now I lock the whole browser :D
+There are other minor glitches but the whole thing works :D
+
+Enjoy!
+
+Jon Vlachoyiannis
+ 
