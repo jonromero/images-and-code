@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta name="author" content="Originally created by Tjobbe Andrews of www.sitecreative.net. Thanks a lot man!" />
+	<title> :: Two by 2 :: 'cause javascript beat paper | Build: {{ datetime.today() }}</title>
+    {{ jsImport("wz_jsgraphics.js") }}
+  </head>
+  <body>
+<div id="all">
+	<h1 id="speech">Two by 2 :: 'cause javascript beats paper</h1>
+	<h1 id="header">"The first javascript collaboration comic! You clone our git, submit your stuff and we put it on production! Sounds sexy? ;)"</h1>
+	<div id="container" class="clearfix">
+	  <a href="javascript:{{ jsPreloadData()}} {{ jsRun('ShareTheLove') }}">Click here to watch the latest comic! </a> <br />
+	  Warning: Prepare to have your browser locked up for as long as it takes for the comic to load. <br />
+	  <small>(yeap, I know there is a way to prevent it :D Expect it on a later version!) </small> <br />
+	  <br />
+	  
+	  <div id="content">
+		<h1>Latest Comic by <a href="http://jon.is.emotionull.com">Jon</a>  
+		<div id="myCanvas" style="position:relative;height:250px;width:100%;">
+		</div>
+<!--
+	<script type="text/javascript">
+	  alert("Loading array");
+	  
+	  {# jsPreloadData() }}
+	  
+	  alert("Loading the data is done. Now rendering");
+	  
+	  {# jsRun("RenderEngine") }}
+	</script>
+-->
+<h1>Clone us and send your comic!</h1>
+		Every week, we will choose one of the branches and merge it back to main. So, clone us, create a new comic, commit it and possibly you'll be merged with the main branch. Instructions are at our <a href="http://github.com/jonromero/images-and-code/tree/master">git</a>.
+
+
+	<h1>Some info</h1>
+	This isn't an average webcomic. And these are the reasons:
+	<ul>
+	  <li>
+		The comic is not in an image-format. It's created on the fly with javascript.
+	  </li>
+	  <li>
+		You clone our "source", make a branch and if we like it at the end of the week will put it on the stable branch. So, you will be the "latest code"!
+	  </li>
+	  <li>
+		You can send the comic to your friends by
+		copying and pasting some text to your browser url bar.
+	  </li>
+	  <li>
+		A whole engine is built in Python and Javascript (called ImagesAndCode) just to create this comic and make it the
+		first comic ever to run from your url bar (ok, seems like I've said that before) :D.
+	  </li>
+	  <li>
+		You can get the latest comic (or the WHOLE package) via <a href="http://github.com/jonromero/images-and-code/tree/master">git</a>.
+	  </li>
+	  <li>
+		And of course it's OpenSource (GPL)
+	  </li>
+
+	</ul>
+
+	Feel free to contact for questions, co-writing in TwoX2 comic and extending the ImagesAndCode engine. Check the blog and leave comments <br />
+	Have fun! <br />
+
+	  </div>
+		<div id="rightColumn">
+
+			<h1>Wanna share it?</h1>
+			"Two by 2" is the first comic that is not an image but Javascript! <br />
+			Just press your left mouse button here and "Copy Link Location". Then paste it to url bar and press enter! You can share the comic like that! UPDATE: This will work on the next release <br /><br />
+			<h1>Links</h1>
+			Check the comic at <a href="http://github.com/jonromero/images-and-code/tree/master">github</a><br />
+			Read more at the <a href="http://jon.is.emotionull.com">blog</a>
+		</div>
+	<div id="footer">
+		<p><span><small>Web site design <a href="http://www.sitecreative.net/">Site Creative</a></small></span>Project by jon[at]emotionull.com</p>
+	</div>
+</div>
+
+</body>
+</html>

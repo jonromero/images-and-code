@@ -3,13 +3,22 @@ This is a very special webcomic.
 Why?
 Check this out.
 
-1. It sucks :D (but pleeease keep reading)
+1. It's community-based. You can clone the git, make a branch and maybe your comic will merge back to main!
 2. It's running from git (so you can clone it, get notifies, download everything etc)
-3. It's in pure javascript! (yeap things are getting more interesting...)
+3. It's in pure javascript!
 4. You can distribute the comic by sending the javascript and tell to put it to the url bar!
    The latest comic will be downloaded dynamically (that is in javascript) and execute!
 5. A small engine (that has a crude version of templates) is written in Python and does
    the pre-rendering :D
+
+How to submit a comic
+---------------------
+First, clone the git. Then download the latest version at your machine.
+Place your image in png format in the same directory as the pyImg2js.py
+and name it image.png. Run python pyImg2js.py. The output.html has the result
+which you can test. Commit the result (remember not to commit the png).
+As the project moves on, I'll make a more detailed procedure (and some 
+major refactoring!). 
 
 
 Huge TODOS:
@@ -19,5 +28,5 @@ There are other minor glitches but the whole thing works :D
 
 Enjoy!
 
-Jon Vlachoyiannis
+Jon 
  

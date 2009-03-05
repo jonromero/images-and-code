@@ -1,0 +1,38 @@
+/*
+Created by Tjobbe Andrews of www.sitecreative.net - the author must be creditted when using this work
+*/
+
+body	{text-align:center; margin:0 auto; background:#38424B; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:90%; }
+h1		{font-size:150%; margin:0 0 5px 0; padding:0; font-weight:normal; line-height:140%; }
+p		{margin:0; padding:0 0 15px 0; line-height:140%; }
+a		{color:#000000; text-decoration:underline; font-weight:bold; }
+a:hover	{text-decoration:none; }
+
+/*structural*/
+#all			{margin:0 auto; text-align:left; width:720px; }
+#container		{padding:20px; margin:20px 0; background:#FFF url('../images/intro.jpg') no-repeat 20px 98px; }
+#content		{padding:20px 10px 5px 20px; float:left; width:430px; }
+#rightColumn	{float:right; width:170px; padding:20px 20px 5px 10px; }
+#footer			{margin:20px 0; clear:both; text-align:left; width:680px; padding:20px 20px 5px 20px; background:#FFFFFF; font-size:90%; }
+#footer span	{float:right; }
+
+/*navigation*/
+ul#nav			{margin:0 0 220px 0; padding:20px 0; background:#272F36; }
+#nav li			{margin:0; padding:0; list-style:none; display:inline; }
+#nav a			{padding:20px; color:#FFF; text-decoration:none; border-right:20px solid #272F36; border-left:20px solid #272F36; background:#272F36; }
+#nav a:hover	{border-right:20px solid #FFF; border-left:20px solid #FFF; background:#38424B }
+
+/*stops the home button going weird*/
+#noLeftBorder a, #noLeftBorder a:hover	{border-left:0;}
+
+/*custom headers*/
+h1#speech	{padding:0; margin:20px; font-size:180%; font-weight:normal; color:#FFFFFF; }
+h1#header	{background:#FFF url('../images/speech.gif') no-repeat left top; padding:48px 20px 20px 20px; margin:0; font-size:140%; font-weight:normal; }
+
+/**CLEARFIX - ICE**/
+.clearfix:after 	{content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix 			{display:inline-block; }
+/* Hides from IE-mac \*/
+* html .clearfix 	{height:1%; }
+.clearfix 			{display:block; }
+/* End hide from IE-mac */
